@@ -23,10 +23,9 @@ function MainRouting() {
         <Route  path='/AuthManager/authPinLogin' element={<PasswordPage/>}/>
         <Route  path='/AuthManager/dashBord' element={defaultPage}/> //URP Selec Page
         <Route  path='/admin/dashboard/dashboard' element={<ModuleSelect/>}/> // admin Select page
-
-        <Route  path='/admin/Dashboard/module_selection' element={<><SuperAdmin_Nav/><URP_Landing_page/></>}/>.  // Acounting Select Page
-        <Route  path='/admin/account/dashboard/Dashboard' element={<><Acounting_Nav/><Accounting_Dashboard/></>}/>. // transection select
-        <Route  path='/admin/account/trans/Source_grant_sanction_master' element={<><Acounting_Nav/><Grant_Section_Voucher/></>}/>. // grant voucher page
+        <Route  path='/admin/Dashboard/module_selection' element={<><SuperAdmin_Nav/><URP_Landing_page/></>}/> 
+        <Route  path='/admin/account/dashboard/Dashboard' element={<><Acounting_Nav/><Accounting_Dashboard/></>}/>
+        <Route  path='/admin/account/trans/Source_grant_sanction_master' element={<><Acounting_Nav/><Grant_Section_Voucher/></>}/>
       </Routes>
     </BrowserRouter> 
   )
